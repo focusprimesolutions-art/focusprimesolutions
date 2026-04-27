@@ -3,63 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Focus Prime Solutions | Expert Appliance Repair South Bay</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        .bg-royal { background-color: #0b1120; }
-        .text-gold { color: #C5A059; }
-        .btn-gold { background-color: #C5A059; color: #fff; }
-        .btn-gold:hover { background-color: #B48F48; transform: translateY(-2px); }
-        .service-card:hover img { transform: scale(1.05); }
-    </style>
+    <title>Focus Prime Appliance Repair</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans">
+<body>
 
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <img src="logo.png" alt="Focus Prime Solutions" class="h-12 md:h-20 w-auto">
-            <a href="tel:[YOUR-PHONE-HERE]" class="btn-gold px-6 py-2 rounded-full font-bold transition duration-300 shadow-md">
-                <i class="fa-solid fa-phone mr-2"></i>Call Now
-            </a>
+<header>
+    <img src="images/logo.png" alt="Focus Prime Logo" class="logo">
+    <h1>Focus Prime Appliance Repair</h1>
+    <p>Fast • Reliable • Professional</p>
+</header>
+
+<section class="hero">
+    <img src="images/hero.jpg" alt="Technician">
+    <div class="hero-text">
+        <h2>Expert Appliance Repair Services</h2>
+        <p>Same-day service. Affordable pricing. Trusted technician.</p>
+        <a href="#contact" class="btn">Call Now</a>
+    </div>
+</section>
+
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="images/microwave.jpg">
+            <h3>Microwave Repair</h3>
+            <p>Fixing heating issues, sparks, and control problems.</p>
         </div>
-    </header>
 
-    <section class="bg-royal py-20 md:py-32 text-white border-b border-[#C5A059]/20">
-        <div class="container mx-auto px-6 text-center">
-            <h1 class="text-6xl md:text-8xl font-black mb-8 leading-tight tracking-tighter uppercase">
-                Premium <span class="text-gold">Appliance</span> Repair
-            </h1>
-            <p class="text-2xl mb-12 text-slate-400 font-light max-w-2xl mx-auto italic">
-                Licensed and insured expert service for South Bay, CA. We fix major brands, focusing on quality, precision, and your total satisfaction.
-            </p>
-            <a href="tel:[YOUR-PHONE-HERE]" class="btn-gold px-12 py-5 rounded-xl font-extrabold text-2xl shadow-2xl transition inline-block uppercase tracking-wider">
-                Book Service
-            </a>
+        <div class="card">
+            <img src="images/dishwasher.jpg">
+            <h3>Dishwasher Repair</h3>
+            <p>Leaks, drainage issues, and cleaning performance.</p>
         </div>
-    </section>
 
-    <section class="py-24 bg-white rounded-t-[3rem] -mt-10 relative z-10">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-6 text-center md:text-left">
-                <div>
-                    <h2 class="text-gold font-bold tracking-widest uppercase mb-2">Expertise</h2>
-                    <h3 class="text-4xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter">Appliances We Service</h3>
-                </div>
-                <div class="h-1 flex-grow bg-slate-100 mb-4 ml-6 hidden md:block"></div>
-            </div>
+        <div class="card">
+            <img src="images/washer.jpg">
+            <h3>Washer Repair</h3>
+            <p>Spin problems, water issues, and noise repair.</p>
+        </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-                <div class="service-card group cursor-pointer p-6 border border-slate-100 rounded-3xl hover:border-[#C5A059]/20 transition">
-                    <div class="overflow-hidden rounded-2xl mb-6 shadow-md h-64">
-                        <img src="https://images.unsplash.com/photo-1626806819282-2c1dc61a0e05?q=80&w=800" class="w-full h-full object-cover transition duration-500" alt="Washers & Dryers">
-                    </div>
-                    <h4 class="text-3xl font-bold mb-3 uppercase tracking-tighter group-hover:text-gold transition">Washers & Dryers</h4>
-                    <p class="text-slate-500 font-light">Fast repair for all major brands. Fixed right the first time.</p>
-                </div>
+        <div class="card">
+            <img src="images/dryer.jpg">
+            <h3>Dryer Repair</h3>
+            <p>No heat, long drying times, and electrical issues.</p>
+        </div>
 
-                <div class="service-card group cursor-pointer p-6 border border-slate-100 rounded-3xl hover:border-[#C5A059]/20 transition">
-                    <div class="overflow-hidden rounded-2xl mb-6 shadow-md h-64">
-                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=800" class="w-full h-full object-cover transition duration-500" alt="Ovens & Ranges">
-                    </div>
-                    <h4 class="text-3xl font-bold mb-3 uppercase tracking-tighter group-hover:text-gold transition">Ovens & Ranges</h4>
+        <div class="card">
+            <img src="images/oven.jpg">
+            <h3>Oven & Stove Repair</h3>
+            <p>Temperature issues, burners, and ignition problems.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/hood.jpg">
+            <h3>Range Hood Repair</h3>
+            <p>Fan, lighting, and ventilation issues fixed fast.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/duct.jpg">
+            <h3>Dryer Vent Cleaning</h3>
+            <p>Improve efficiency and prevent fire hazards.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 (123) 456-7890</p>
+    <p>📍 Los Angeles, CA</p>
+    <p>Available 7 Days a Week</p>
+</section>
+
+<footer>
+    <p>© 2026 Focus Prime Appliance Repair</p>
+</footer>
+
+</body>
+</html>
