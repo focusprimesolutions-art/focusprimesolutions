@@ -1,56 +1,65 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Focus Prime Solutions</title>
+    <title>Focus Prime Solutions | Expert Appliance Repair South Bay</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .bg-royal { background-color: #0b1120; }
+        .text-gold { color: #C5A059; }
+        .btn-gold { background-color: #C5A059; color: #fff; }
+        .btn-gold:hover { background-color: #B48F48; transform: translateY(-2px); }
+        .service-card:hover img { transform: scale(1.05); }
+    </style>
 </head>
-<body class="bg-[#0b1120] text-white font-sans">
-    <header class="bg-white py-4 shadow-lg">
-        <div class="container mx-auto px-6 flex justify-between items-center">
-            <img src="logo.png" alt="Logo" class="h-16 w-auto">
-            <a href="tel:+10000000000" class="bg-[#C5A059] text-white px-6 py-2 rounded-full font-bold uppercase text-sm tracking-widest">Call Now</a>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <img src="logo.png" alt="Focus Prime Solutions" class="h-12 md:h-20 w-auto">
+            <a href="tel:[YOUR-PHONE-HERE]" class="btn-gold px-6 py-2 rounded-full font-bold transition duration-300 shadow-md">
+                <i class="fa-solid fa-phone mr-2"></i>Call Now
+            </a>
         </div>
     </header>
 
-    <section class="container mx-auto px-6 py-20 grid md:grid-cols-2 items-center gap-10">
-        <div>
-            <h1 class="text-6xl font-black mb-6 leading-none tracking-tighter uppercase">Premium <span class="text-[#C5A059]">Appliance</span> Repair</h1>
-            <p class="text-xl text-slate-400 mb-10 font-light italic">Serving South Bay, CA. Quality you can trust.</p>
-            <a href="tel:+10000000000" class="bg-[#C5A059] text-white px-10 py-5 rounded-xl font-black text-xl uppercase shadow-2xl">Book Now</a>
-        </div>
-        <div class="relative">
-            <img src="hero-person.png" alt="Expert" class="w-full h-auto drop-shadow-[0_0_50px_rgba(197,160,89,0.3)]">
-        </div>
-    </section>
-
-    <section class="bg-white text-slate-900 py-20">
-        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-8">
-            <div class="border-t-4 border-[#C5A059] pt-6">
-                <h3 class="text-2xl font-black uppercase mb-4">Washers & Dryers</h3>
-                <img src="https://images.unsplash.com/photo-1626806819282-2c1dc61a0e05?q=80&w=800" class="w-full h-48 object-cover mb-4 rounded-lg">
-            </div>
-            <div class="border-t-4 border-[#C5A059] pt-6">
-                <h3 class="text-2xl font-black uppercase mb-4">Ovens & Ranges</h3>
-                <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=800" class="w-full h-48 object-cover mb-4 rounded-lg">
-            </div>
-            <div class="border-t-4 border-[#C5A059] pt-6">
-                <h3 class="text-2xl font-black uppercase mb-4">Dishwashers</h3>
-                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800" class="w-full h-48 object-cover mb-4 rounded-lg">
-            </div>
+    <section class="bg-royal py-20 md:py-32 text-white border-b border-[#C5A059]/20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-6xl md:text-8xl font-black mb-8 leading-tight tracking-tighter uppercase">
+                Premium <span class="text-gold">Appliance</span> Repair
+            </h1>
+            <p class="text-2xl mb-12 text-slate-400 font-light max-w-2xl mx-auto italic">
+                Licensed and insured expert service for South Bay, CA. We fix major brands, focusing on quality, precision, and your total satisfaction.
+            </p>
+            <a href="tel:[YOUR-PHONE-HERE]" class="btn-gold px-12 py-5 rounded-xl font-extrabold text-2xl shadow-2xl transition inline-block uppercase tracking-wider">
+                Book Service
+            </a>
         </div>
     </section>
 
-    <footer class="py-10 text-center border-t border-slate-800">
-        <img src="logo.png" class="h-12 mx-auto mb-6 opacity-50">
-        <div class="text-sm tracking-widest text-slate-500 mb-2 uppercase">Serving South Bay, California</div>
-        <div class="text-[#C5A059] font-bold text-xl mb-6 underline leading-none">
-            <a href="tel:+10000000000">Click to Call: [Your Number]</a>
-        </div>
-        <p class="text-[10px] text-slate-700">© 2026 FOCUS PRIME SOLUTIONS. ALL RIGHTS RESERVED.</p>
-    </footer>
-</body>
-</html>
+    <section class="py-24 bg-white rounded-t-[3rem] -mt-10 relative z-10">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-6 text-center md:text-left">
+                <div>
+                    <h2 class="text-gold font-bold tracking-widest uppercase mb-2">Expertise</h2>
+                    <h3 class="text-4xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter">Appliances We Service</h3>
+                </div>
+                <div class="h-1 flex-grow bg-slate-100 mb-4 ml-6 hidden md:block"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div class="service-card group cursor-pointer p-6 border border-slate-100 rounded-3xl hover:border-[#C5A059]/20 transition">
+                    <div class="overflow-hidden rounded-2xl mb-6 shadow-md h-64">
+                        <img src="https://images.unsplash.com/photo-1626806819282-2c1dc61a0e05?q=80&w=800" class="w-full h-full object-cover transition duration-500" alt="Washers & Dryers">
+                    </div>
+                    <h4 class="text-3xl font-bold mb-3 uppercase tracking-tighter group-hover:text-gold transition">Washers & Dryers</h4>
+                    <p class="text-slate-500 font-light">Fast repair for all major brands. Fixed right the first time.</p>
+                </div>
+
+                <div class="service-card group cursor-pointer p-6 border border-slate-100 rounded-3xl hover:border-[#C5A059]/20 transition">
+                    <div class="overflow-hidden rounded-2xl mb-6 shadow-md h-64">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=800" class="w-full h-full object-cover transition duration-500" alt="Ovens & Ranges">
+                    </div>
+                    <h4 class="text-3xl font-bold mb-3 uppercase tracking-tighter group-hover:text-gold transition">Ovens & Ranges</h4>
